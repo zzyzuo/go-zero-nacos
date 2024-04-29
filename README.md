@@ -1,0 +1,1 @@
+# go-zero使用nacos作为配置中心

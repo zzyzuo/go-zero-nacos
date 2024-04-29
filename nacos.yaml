@@ -1,0 +1,14 @@
+#nacos config
+NacosConfig:
+  DataId: test
+  Group: DEFAULT_GROUP
+  ServerConfigs:
+    - IpAddr: localhost
+      Port: 8848
+  ClientConfig:
+    NamespaceId: 7f301b74-522d-43bc-a7b2-72b3a5a343c7
+    TimeoutMs: 5000
+    NotLoadCacheAtStart: true
+    LogDir: logs
+    CacheDir: cache
+    LogLevel: debug
