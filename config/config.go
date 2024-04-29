@@ -2,7 +2,7 @@ package config
 
 import (
 	"github.com/zeromicro/go-zero/rest"
-	"go-zero-nacos/nacosx"
+	"github.com/zzyzuo/go-zero-nacos/nacosx"
 )
 
 type Config struct {

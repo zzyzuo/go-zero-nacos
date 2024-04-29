@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 	"github.com/zeromicro/go-zero/core/conf"
-	"go-zero-nacos/config"
-	"go-zero-nacos/nacosx"
+	"github.com/zzyzuo/go-zero-nacos/config"
+	"github.com/zzyzuo/go-zero-nacos/nacosx"
 	"time"
 )
 
