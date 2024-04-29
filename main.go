@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/zeromicro/go-zero/core/conf"
 	"go-zero-nacos/config"
-	"go-zero-nacos/nocosx"
+	"go-zero-nacos/nacosx"
 	"time"
 )
 
@@ -19,7 +19,7 @@ func main() {
 
 	//解析业务配置
 	var c config.Config
-	nacos := nocosx.NewNacos(bootstrapConfig.NacosConfig)
+	nacos := nacosx.NewNacos(bootstrapConfig.NacosConfig)
 	serviceConfigContent := nacos.InitConfig(func(data string) {
 		err := conf.LoadFromYamlBytes([]byte(data), &c)
 		if err != nil {

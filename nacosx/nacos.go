@@ -1,4 +1,4 @@
-package nocosx
+package nacosx
 
 import (
 	"github.com/nacos-group/nacos-sdk-go/clients"
