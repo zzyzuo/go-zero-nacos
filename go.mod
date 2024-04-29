@@ -1,11 +1,8 @@
-module go-zero-nacos
+module github.com/zzyzuo/go-zero-nacos
 
 go 1.22
 
-require (
-	github.com/nacos-group/nacos-sdk-go v1.1.4
-	github.com/zeromicro/go-zero v1.6.4
-)
+require github.com/nacos-group/nacos-sdk-go v1.1.4
 
 require (
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.18 // indirect
